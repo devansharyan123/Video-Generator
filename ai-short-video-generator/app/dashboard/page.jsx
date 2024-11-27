@@ -10,7 +10,7 @@ function Dashboard() {
     <div className='flex justify-between items-center'>
         <div className='font-bold text-2xl text-primary'>Dashboard</div> 
         <Link href='/dashboard/create-new'>
-    <Button >Create new video</Button>
+    <Button > + Create new</Button>
     </Link>
     </div>
     {videoList.length ==  0 &&<div>
