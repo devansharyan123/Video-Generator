@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import SelectTopic from './components/SelectTopic'
+import SelectStyle from './components/SelectStyle'  
 function CreateNew() {
 
   const [formData, setFormData] = useState([])
@@ -14,7 +15,7 @@ function CreateNew() {
         {/*Select Topic */}
         <SelectTopic  onUserSelect={onHandleInputChange}/>
         {/*Select Style*/}
-
+        <SelectStyle onUserSelect={onHandleInputChange} />
         {/* Duration */}
 
         {/* Create Button */}
