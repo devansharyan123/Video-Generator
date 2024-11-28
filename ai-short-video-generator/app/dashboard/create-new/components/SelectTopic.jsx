@@ -10,7 +10,7 @@ import {
   SelectValue,
 } from "../../../../@/components/ui/select";
 
-function SelectTopic() {
+function SelectTopic({onUserSelect}) {
   const options = [
     "Custom Prompt",
     "Random AI Story",
@@ -25,7 +25,9 @@ function SelectTopic() {
     <div>
       <h2 className="font-bold text-2xl text-primary">Content</h2>
       <p className="text-gray-500 pt-3 pb-3">Select a topic for the video</p>
-      <Select  onValueChange = {(value) => setSelectedOption(value)}>
+      <Select  onValueChange = {(value) => {
+        setSelectedOption(value)
+        value != 'Custom Prompt'&&onUserSelect('topic' , value )}}>
         <SelectTrigger className="w-full p-6 mt-2 text-lg">
           <SelectValue placeholder="Content Type" />
         </SelectTrigger>
@@ -39,7 +41,7 @@ function SelectTopic() {
         </SelectContent>
       </Select>
       {selectedOption === "Custom Prompt"&&(<div>
-        <Textarea placeholder="Enter your custom prompt here..." className="w-full mt-4 p-4 border rounded-md" />
+        <Textarea onChange = {(e) => {onUserSelect('topic',e.target.value)}} placeholder="Enter your custom prompt here..." className="w-full mt-4 p-4 border rounded-md" />
         </div>)}
     </div>
   );
