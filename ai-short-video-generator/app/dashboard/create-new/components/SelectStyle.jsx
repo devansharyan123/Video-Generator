@@ -38,7 +38,7 @@ function SelectStyle({onUserSelect}) {
             {options.map((item,index) => (
                 <div key={index} className={`flex flex-col items-center  hover:scale-110 transition-all cursor-pointer rounded-xl
                 ${selectedOption == item.name&&'border-4 border-primary'}`}>
-                    <Image src={item.image} height={100} width={100} className=" h-48 w-full object-cover rounded-lg "
+                    <Image src={item.image} height={100} width={100} alt='image styles' className=" h-48 w-full object-cover rounded-lg "
                     onClick={() =>{setSelectedOption(item.name)
                         onUserSelect('imageStyle', item.name)
                     }} />
