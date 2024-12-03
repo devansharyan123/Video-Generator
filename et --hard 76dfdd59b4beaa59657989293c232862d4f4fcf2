@@ -1,0 +1,47 @@
+[33mcommit 4e303ec20c34f1d04114cc7e1e9e946db0f08515[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Fri Nov 22 12:10:56 2024 +0530
+
+    ignore added in outer folder
+
+[33mcommit 931b6dae512a2068d36b5748d102ff4a10fb2f31[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Fri Nov 22 11:44:13 2024 +0530
+
+    clerk auth added and removed some files
+
+[33mcommit 85cb282999b124c231806f3e2ff07c0cf27e2572[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Thu Nov 21 18:31:02 2024 +0530
+
+    Ignore node_modules folder
+
+[33mcommit 584d3bded833ee328e40ecf9e3682d2bcea51622[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Thu Nov 21 18:24:53 2024 +0530
+
+    clerk middleware added
+
+[33mcommit 76dfdd59b4beaa59657989293c232862d4f4fcf2[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Thu Nov 21 18:23:54 2024 +0530
+
+    database added
+
+[33mcommit 15ec39ebe02bfc6a7bf5406bde7e001f9757ebd2[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Wed Nov 13 09:14:45 2024 +0530
+
+    drizzle orm installed
+
+[33mcommit 4dae575bc9ba89f8ceb74e5c14c324062509c235[m
+Author: DEVANSH ARYAN <1ds22cb022@dsce.edu.in>
+Date:   Wed Nov 13 00:40:08 2024 +0530
+
+    next installed
+
+[33mcommit 84013512952c22eb1cc4a1639bb74b9d19854c95[m
+Author: DEVANSH ARYAN <135739248+devansharyan123@users.noreply.github.com>
+Date:   Tue Nov 12 17:52:47 2024 +0530
+
+    Initial commit
